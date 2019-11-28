@@ -65,7 +65,7 @@ header li {
 }
 
 .container2 {
-    display: block;
+    /* display: block; */
     background-color: #ffffff;
     padding : 0 30px 15px 30px;
     /* padding : 15px 30px; */
@@ -83,6 +83,7 @@ header li {
     height:40px;
     position: sticky;
     bottom: 0;
+
 }
 
 header .highlight, header .current a {
@@ -111,3 +112,19 @@ textarea{
     padding-left: 8px;
 }
 
+#box {
+       position: relative;
+    float: left;
+    width: 50%;
+
+}
+
+#box div {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color:#4aaaa5 ;
+    color:white;
+    position: absolute;
+    bottom:40px;
+    overflow: hidden;
+}
