@@ -94,3 +94,20 @@ header a:hover {
     color: red;
     font-weight: bold;
 }
+
+.input-label {
+    margin :0px;
+}
+
+.container2 input {
+    height:20px;
+    width:890px;
+    padding-left: 8px;
+    display: block;
+}
+textarea{
+    width: 890px;
+    height: 150px;
+    padding-left: 8px;
+}
+
