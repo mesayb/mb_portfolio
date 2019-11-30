@@ -25,6 +25,9 @@ header {
     height:60px;
     position: sticky;
     top: 0;
+    z-index: 1;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 header nav {
     float: right;
@@ -36,6 +39,7 @@ header nav {
     left: 200px;
 }
 header a {
+    display: contents;
     text-decoration: none;
     font-size: 18px;
     color: #4aaaa5;
@@ -46,7 +50,7 @@ header li {
     display: inline;
     color: #4aaaa5;   
 }
-#home a{
+#home a, button{
     background:#4aaaa5;
     color: #ffffff;
     clear:both;
@@ -69,13 +73,13 @@ header li {
 }
 .container2 h1 {
     padding: 10px 15px 15px 30px;
-    border-bottom: #cccccc 3px solid;
+    border-bottom: #dddddd 3px solid;
 }
 
 .footer1 {
     color:white;
     text-align: center;
-    background-color:#666666 ;
+    background-color:#666666;
     padding:15px;
     height:40px;
     position: sticky;
@@ -84,13 +88,12 @@ header li {
 }
 
 header .highlight, header .current a {
-    color: rgb(23, 23, 90);
-    font-weight: bold;
+    color: rgb(15, 15, 34);
+
 }
 
 header a:hover {
-    color: rgb(168, 17, 17);
-    font-weight: bold;
+    color: rgb(15, 15, 34);
 }
 
 .input-label {
@@ -109,17 +112,30 @@ textarea{
     padding-left: 8px;
 }
 
-.box {
-
-
-
-}
-
 .container2{
+   overflow: hidden; 
+}
+.box {
     position:relative;
+    display: inline-block;
+    width: 40%;
+
 }
 
-.box {
+.box img {
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+
+}
+
+.box div {
+    background-color: rgb(65, 119, 101);
+    color:white;
     position: absolute;
-    float:left;
+    bottom: 20px;
+    width:200px;
+    text-align: center;
+
+
 }
