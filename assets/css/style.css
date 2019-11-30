@@ -60,15 +60,12 @@ header li {
 
 }
 
-#par01 p {
-    
-}
-
 .container2 {
-    /* display: block; */
+    clear:both;
     background-color: #ffffff;
     padding : 0 30px 15px 30px;
-    /* padding : 15px 30px; */
+    margin-bottom: 40px;
+    height:auto;
 }
 .container2 h1 {
     padding: 10px 15px 15px 30px;
@@ -87,12 +84,12 @@ header li {
 }
 
 header .highlight, header .current a {
-    color: blue;
+    color: rgb(23, 23, 90);
     font-weight: bold;
 }
 
 header a:hover {
-    color: red;
+    color: rgb(168, 17, 17);
     font-weight: bold;
 }
 
@@ -112,19 +109,17 @@ textarea{
     padding-left: 8px;
 }
 
-#box {
-       position: relative;
-    float: left;
-    width: 50%;
+.box {
+
+
 
 }
 
-#box div {
-    text-align: center;
-    padding: 10px 0 10px 0;
-    background-color:#4aaaa5 ;
-    color:white;
+.container2{
+    position:relative;
+}
+
+.box {
     position: absolute;
-    bottom:40px;
-    overflow: hidden;
+    float:left;
 }
