@@ -15,29 +15,30 @@ body {
 }
 .blockcontent{
     background: #4aaaa5;
-    padding:21px;
+    padding:20px;
     width: max-content;
     height:20px;
+    display: inline-block;
+    position:absolute;
+    left: 200px;
+    box-sizing: content-box;
 }
+
 header {
     background-color: #ffffff ;
-    border-bottom: #cccccc 3px solid;
+    border-bottom: #cccccc 5px solid;
     height:60px;
     position: sticky;
     top: 0;
     z-index: 1;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 header nav {
     float: right;
 
 }
-.blockcontent {
-    display: inline;
-    position:absolute;
-    left: 200px;
-}
+
 header a {
     display: contents;
     text-decoration: none;
@@ -48,9 +49,9 @@ header li {
     margin: 0;
     padding: 20px;
     display: inline;
-    color: #4aaaa5;   
+    color: #4aaaa5;    
 }
-#home a, button{
+#home a, button {
     background:#4aaaa5;
     color: #ffffff;
     clear:both;
@@ -61,40 +62,42 @@ header li {
     height:160px;
     float:left;
     padding-right:20px;
-
 }
 
 .container2 {
     clear:both;
     background-color: #ffffff;
     padding : 0 30px 15px 30px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    margin-top:15px;
     height:auto;
 }
 .container2 h1 {
     padding: 10px 15px 15px 30px;
     border-bottom: #dddddd 3px solid;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .footer1 {
     color:white;
     text-align: center;
     background-color:#666666;
-    padding:15px;
-    height:40px;
-    position: sticky;
+    border-top: 8px solid #4aaaa5;
+    padding:8px;
+    height:20px;
+    position: fixed;
     bottom: 0;
-
+    width:100%;
 }
 
 header .highlight, header .current a {
-    color: rgb(15, 15, 34);
-
+    color: rgb(0, 0, 0);
 }
 
-header a:hover {
-    color: rgb(15, 15, 34);
+ header a:hover {
+    color: rgb(0, 0, 0);
 }
+
 
 .input-label {
     margin :0px;
@@ -108,7 +111,7 @@ header a:hover {
 }
 textarea{
     width: 890px;
-    height: 150px;
+    height: 100px;
     padding-left: 8px;
 }
 
@@ -119,23 +122,21 @@ textarea{
     position:relative;
     display: inline-block;
     width: 40%;
-
+    padding: 0;
+    margin:0 20px 20px 0;
 }
 
 .box img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     z-index: 2;
-
 }
 
 .box div {
     background-color: rgb(65, 119, 101);
     color:white;
     position: absolute;
-    bottom: 20px;
-    width:200px;
+    bottom: 25px;
+    width: 150px;
     text-align: center;
-
-
 }
