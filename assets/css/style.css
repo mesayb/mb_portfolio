@@ -121,7 +121,7 @@ textarea {
     position: relative;
 }
 
-.clear {
+.box:nth-of-type(odd) {
     clear: left; 
 }
 
